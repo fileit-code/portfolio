@@ -1,0 +1,77 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+<Layout>
+    <div class="bg-neutral-900 min-h-[100vh] text-white p-24">
+        <h3 class="text-6xl font-extrabold text-red-500" transition:name="yampititle">
+            Yampi App
+        </h3>
+        <div class="flex mt-8">
+            <img class="w-72 rounded-2xl mr-4" src="public/yampi1.jpeg" transition:name="yampiimg"/>
+            <div class="prose prose-invert text-lg">
+                <p>
+                    <b class="font-bold">Yampi</b> es una aplicación desarrollada para una heladería local en San Cristóbal, diseñada para modernizar la experiencia de compra y fidelizar clientes en una ciudad donde no operan plataformas como Pedidos Ya o Rappi.
+                </p>
+                <p class="font-bold mt-24">
+                    ¿Cómo Funciona?
+                </p>
+                <p>
+                    La app permite a los clientes explorar productos, personalizar pedidos, realizar pagos y acumular puntos para canjear premios. Además, los empleados de la heladería tienen herramientas para gestionar stock, precios y pedidos.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex mt-12">
+            <div class="w-[600px] border border-white/10 p-6 mr-12 mb-12 rounded-2xl">
+                <h5 class="font-bold text-xl mb-4">Exploración de productos:</h5>
+                <div class="flex">
+                    <img class="w-40 rounded-2xl mr-4" src="public/yampi2.jpeg" />
+                    <p class="prose prose-invert text-lg">
+                        Los clientes pueden navegar por el catálogo de productos disponibles, como helados por kilo y paletas heladas, seleccionando solo los productos en stock para agregar a su carrito de compras.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-[600px] border border-white/10 p-6 rounded-2xl">
+                <h5 class="font-bold text-xl mb-4">Selección de sabores:</h5>
+                <div class="flex">
+                    <img class="w-40 rounded-2xl mr-4" src="public/yampi3.jpeg" />
+                    <p class="prose prose-invert text-lg">
+                        En el caso de los helados por kilo, los usuarios pueden elegir los sabores disponibles y personalizar su pedido de forma sencilla antes de finalizar la compra.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[600px] border border-white/10 p-6 rounded-2xl">
+            <h5 class="font-bold text-xl mb-4">Formulario de compra:</h5>
+            <div class="flex">
+                <img class="w-40 rounded-2xl mr-4" src="public/yampi4.jpeg" />
+                <p class="prose prose-invert text-lg">
+                    Los clientes completan su pedido ingresando datos como nombre, domicilio y teléfono. También pueden elegir pagar en efectivo al recibir el pedido o mediante Mercado Pago directamente desde la app.
+                </p>
+            </div>
+        </div>
+
+        <h5 class="font-bold mt-12 text-2xl mb-4">Sistema de Puntos y Gestión Administrativa:</h5>
+        <p class="mt-2">
+            Los usuarios pueden crear una cuenta para acumular puntos en cada compra y canjearlos por premios desde la app. Los empleados de la heladería tienen acceso a:
+        </p>
+        <ul class="list-disc list-inside mt-2">
+            <li>Modificar precios y gestionar stock en tiempo real.</li>
+            <li>Consultar el historial de pedidos realizados.</li>
+            <li>Ver y administrar los puntos acumulados por los clientes.</li>
+        </ul>
+
+        <h5 class="font-bold mt-12 text-2xl mb-4">Impacto y Uso Actual:</h5>
+        <ul class="list-disc list-inside mt-2">
+            <li>Modernización del proceso de pedidos y personalización de productos.</li>
+            <li>Fidelización de clientes a través del sistema de puntos.</li>
+            <li>Optimización de la gestión administrativa en la heladería.</li>
+        </ul>
+        <p class="mt-4">
+            <strong class="font-bold">Yampi</strong> es una herramienta clave para mejorar la experiencia del cliente y aumentar la eficiencia operativa en negocios locales.
+        </p>
+    </div>
+</Layout>
